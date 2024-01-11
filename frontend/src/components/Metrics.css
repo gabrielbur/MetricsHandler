@@ -1,0 +1,115 @@
+.metrics-container {
+  padding: 20px;
+}
+
+.graph-filters-panel {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.metric-name-selector,
+.interval-selector,
+.add-zeros-checkbox {
+  margin-bottom: 10px;
+}
+
+.metric-label,
+.date-label,
+.interval-label {
+  margin-right: 10px;
+}
+
+.date-picker-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.date-picker-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.date-label {
+  margin-bottom: 5px;
+}
+
+.interval-zeros-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-zeros-checkbox {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+  margin: 10px 0;
+}
+
+.chart-container {
+  margin-bottom: 30px;
+}
+
+.log-metric-panel {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  
+}
+
+.log-metric-panel h3 {
+  margin-bottom: 10px;
+}
+
+.log-metric-panel form div {
+  margin-bottom: 10px;
+}
+.log-metric-panel form input[type="text"] {
+  width: calc(100% - 20px); /* Adjust width to account for margin */
+  margin-right: 20px; /* Right margin for white space */
+}
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .date-picker-container {
+      flex-direction: column;
+  }
+
+  .date-picker-group {
+      margin-bottom: 15px;
+  }
+
+  .graph-filters-panel {
+      max-width: 100%;
+  }
+
+  .log-metric-panel {
+      max-width: 100%;
+  }
+
+.log-metric-panel form input[type="text"] {
+  width: 100%; /* Full width on smaller screens */
+  margin-right: 0; /* Remove margin on smaller screens */
+}
+
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-right: 20px;
+}

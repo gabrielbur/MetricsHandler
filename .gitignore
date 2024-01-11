@@ -1,0 +1,85 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.pyz
+.pytest_cache/
+.ipynb_checkpoints
+*.bak
+*.cfg
+*.ini
+*.log
+*.sqlite
+
+# Python virtualenv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node (React)
+node_modules/
+/build/
+/dist/
+.npm
+.npmrc
+.cache
+.next
+# Exclude .env files for frontend
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime*
+*.sln
+*.suo
+*.user
+*.userprefs
+*.users
+*.sdf
+*.pidb
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Exclude backend .env file
+# /backend/.env
+
+# Include frontend files
+# !/frontend/**/*.js
+# !/frontend/**/*.json
+# /frontend/.babelrc
