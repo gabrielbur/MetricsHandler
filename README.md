@@ -32,7 +32,7 @@ This app is designed to manage books and their associated metrics efficiently. I
 2. **Database Indexing**: Indexes are set on the timestamp column and other relevant columns for efficient searching.
 3. **Cache Implementation**: A cache system is implemented to enhance query performance.
 4. **Cache Maintenance Task**: Regular cache updates are maintained.
-5. **Zero Value Function**: A function is included to insert '0' values for metrics like error counts.
+5. **Zero Value Function to handle sparse data**: A function is included to insert '0' values for metrics like error counts.
 6. **Real-time Data and Sockets**: Web sockets are used for real-time data handling.
 7. **User Interface for Data Visualization**: The frontend supports adjusting intervals for viewing metrics averages (day, hour, minute).
 8. **Time Zone Handling**: All data is stored in UTC.
