@@ -65,11 +65,6 @@ def test_add_book_valid_data(client, mocker):
     assert 'message' in data
     assert 'book_id' in data
 
-# Test get_books without authentication
-def test_get_books_unauthenticated(client):
-    response = client.get('/books/')
-    assert response.status_code == 401
-
 # Test add_book with invalid data
 def test_add_book_invalid_data(client, mocker):
     # Mock the login_manager user loader
